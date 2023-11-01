@@ -627,7 +627,7 @@ check_mc_destroy(ipmi_mc_t *mc)
     }
     return 0;
 }
-
+// 创建 mc
 int
 i_ipmi_create_mc(ipmi_domain_t *domain,
 		ipmi_addr_t   *addr,

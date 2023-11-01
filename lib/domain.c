@@ -917,7 +917,7 @@ process_options(ipmi_domain_t      *domain,
 
     return 0;
 }
-
+// 创建 domain
 static int
 setup_domain(const char         *name,
 	     ipmi_con_t         *ipmi[],
